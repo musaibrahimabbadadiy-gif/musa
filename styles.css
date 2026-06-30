@@ -314,8 +314,19 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .hero {
+    grid-template-areas:
+      'visual'
+      'copy';
+  }
+
   .hero-visual {
+    grid-area: visual;
     min-height: 240px;
+  }
+
+  .hero-copy {
+    grid-area: copy;
   }
 }
 
